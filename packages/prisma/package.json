@@ -8,11 +8,12 @@
     "build": "prisma generate && tsc -b"
   },
   "exports": {
-    "./client": {
-      "types": "./dist/src/index.d.ts",
-      "require": "./dist/src/index.js",
-      "default": "./dist/src/index.js"
-    }
+  "./client": {
+    "types": "./dist/src/index.d.ts",
+    "import": "./dist/src/index.js",
+    "require": "./dist/src/index.js",
+    "default": "./dist/src/index.js"
+  }
   },
   "keywords": [],
   "author": "",
