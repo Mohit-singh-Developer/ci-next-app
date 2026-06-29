@@ -18,6 +18,7 @@ export default async function Home(){
 
   return (
     <main>
+      <h1>welcome to the website</h1>
       <div>{user?.username ?? "No user found"}</div>
       <div>{user?.password ?? "No password found"}</div>
     </main>
